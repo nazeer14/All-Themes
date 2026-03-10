@@ -8,8 +8,8 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/contact.css">
-     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="../css/contact.css">
+     <link rel="stylesheet" href="../css/footer.css">
 </head>
 
 <body>
@@ -91,19 +91,10 @@
     </div>
     <div id="footer"></div>
 
-    
+    <script src="./js/footer.js"></script>
+    <script src="./js/navbar.js"></script>
     <script>
-        fetch("./footer.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("footer").innerHTML = data;
-            });
-            fetch("./navbar.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("navbar").innerHTML = data;
-            });
-
+   
         /* CURSOR GLOW */
 
         const glow = document.querySelector(".cursor-glow")

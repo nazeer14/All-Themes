@@ -1,10 +1,10 @@
-fetch("./footer.html")
+fetch("footer.html")
 .then(response => response.text())
 .then(data => {
 document.getElementById("footer").innerHTML = data;
 });
 
-fetch("./navbar.html")
+fetch("navbar.html")
 .then(response => response.text())
 .then(data => {
 document.getElementById("navbar").innerHTML = data;

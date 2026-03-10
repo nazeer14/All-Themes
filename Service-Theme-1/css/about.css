@@ -19,8 +19,8 @@
     --gold: #c9a96e;
     --gold-dim: #8a7050;
     --gold-glow: rgba(201, 169, 110, 0.08);
-    --serif: 'Cormorant Garamond', Georgia, serif;
-    --mono: 'DM Mono', 'Courier New', monospace;
+   --serif: 'DM Mono',sans-serif;
+    --mono: 'DM Mono', sans-serif;
 }
 
 html {
@@ -72,11 +72,7 @@ body::before {
     z-index: 1000;
 }
 
-/* Navbar placeholder */
-#navbar {
-    position: relative;
-    z-index: 100;
-}
+
 
 /* ─── HERO ─── */
 .hero {
